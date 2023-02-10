@@ -1,0 +1,15 @@
+/* EQUIPO */
+	Cordinacion & Diseño: librecomunicacion.net - Martin Rodriguez
+	Contacto: martin@librecomunicacion.net
+	Origen: Buenos Aires, Argentina.
+
+	Desarrollador: Pablo Jose Lires
+	Contacto: pablolires@gmail.com
+	Origen: Buenos Aires, Argentina.
+
+/* SITIO */
+	Lenguaje: Castellano
+	Doctype: HTML5
+	framework: Bootstrap.
+	Standards: HTML5, CSS3, JavaScript
+	Software: Sublime Text,PhotoShop CC, Illustrator CC.

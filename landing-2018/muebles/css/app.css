@@ -1,0 +1,225 @@
+body { font-family: 'Raleway', sans-serif!important; font-size: 16px; }
+a { text-decoration: none!important; }
+h1 { font-size: 3em; }
+
+/* Whatsap */
+.whatsapp { display: flex; justify-content: center; align-items: center; margin-top: 5px; }
+.whatsapp p { margin: 0; margin-left: 5px; font-family:'Raleway', sans-serif; font-size: 12px; line-height: 1.3; }
+/* Whatsap end */
+
+/* COMUNES */
+.transition{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+	transition: all ease-in-out .3s;
+}
+.bg_gris { background-color: #b2b2b2; padding: 30px; color: #ffffff; font-size: 1.375em; }
+.bg_verde { background-color: #6ecdb2; padding: 30px; color: #ffffff; font-size: 1.375em; }
+
+.btn_site { background-color: #5bc0a4; color: #ffffff; }
+.btn_site:hover { color: #ffffff; }
+
+/* RECAPTCHA */
+#recaptcha, #rc-imageselect {
+	margin: 10px auto;
+	display: table;
+}
+
+/* HEADER */
+header .col-md-6 { display: flex;justify-content: flex-start; align-items: center; }
+header .header_datos { flex-direction: column; justify-content: center; align-items: flex-end;  }
+header {padding: 10px; font-size: 1.25em; }
+header, header a { color: #5bc0a4!important; }
+header a:hover { color: #42927d!important; }
+
+/* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
+@media (max-width: 575.98px) {
+	header .col-md-6 { justify-content: center; }
+	header{ font-size: 1em; }
+	.header_datos .email { display: none; }
+}
+
+/* Dispositivos pequeños (teléfonos apaisados, 576px y más) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	header .col-md-6 { justify-content: center; }
+	header{ font-size: 1em; }
+	.whatsapp { margin-top: 10px; }
+	.whatsapp p { font-size: 10px; }
+}
+
+/* Dispositivos medianos (tabletas, 768px y más) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	header{ font-size: 1em; }
+}
+
+/* HEADER IMAGEN */
+.faja_mobile { display: none; }
+.header_imagen { 
+	padding: 30px; 
+	height: 705px; 
+	background-image: url('../img/header.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.header_imagen h2 { font-size: 1.375em; }
+.faja { background-color: #00000099;; color: #ffffff; padding: 10px 20px; }
+
+/* FORMULARIO */
+.formulario { padding: 30px; background-color: #FFFFFF99; }
+.formulario h3 { font-size: 1.375em; font-weight: 700; }
+.formulario h4 { font-size: 1.250em; }
+
+.form-check-input{ margin-top: 10px; }
+.form-check-label{ margin-top: 8px; font-size: 0.75em; color: #848484; }
+#send { font-size: 1.25em; margin-top: 15px; width: 100%; background-color: #5bc0a4; font-weight: 700; padding: 5px 10px; border-radius: 5px; border:none; }
+#send:hover, .btn_site:hover { background-color: #42927d!important; }
+.error{ background-color: rgb(255, 0, 0, 0.8); margin-top: 15px; font-size: 0.75em; color: white; }
+
+/* CARACTERISTICAS */
+.caracteristicas img { min-width: 30px; }
+.caracteristicas p { font-size: 1.25em!important; }
+
+.bg_verde h2{ font-size: 1.25em; }
+
+/* MUEBLES RESISTENTES */
+.muebles_resistentes {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	background-image: url('../img/resistentes.jpg');
+	background-repeat: no-repeat;
+	height: 437px;
+}
+
+.muebles_resistentes h2{
+	text-align: center;
+	margin: 0;
+	background-color: #00000099;
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
+ /* FOOTER */
+ footer {	background-color: #5bc0a4; padding: 30px;}
+ footer a, footer p { color: #ffffff;}
+ footer a { display: inline-block; }
+ .mail:hover { opacity: 0.5; color: #ffffff!important; }
+ .mail a:hover { color: #ffffff!important; }
+ footer p { font-size: 0.85em; }
+ .mail img{ margin-right: 10px; }
+
+
+
+
+/* MEDIA QUERIES */
+
+/* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
+@media (max-width: 575.98px) { 
+	header { padding: 15px; }
+	.header_datos, header .logo { text-align: center; }
+
+	.header_imagen { 
+		display: inline-block;
+		height: 185px;
+		background-position: 50%;
+		margin-bottom: 0!important;
+	}
+	.header_imagen h2 { font-size: 1em; }
+	.faja { display: none; }
+	.faja_mobile { display: inline-block; }
+	.faja_mobile h3 { padding: 10px 5px; background-color: #000000; color: #ffffff; font-size: 1.25em; }
+
+	.formulario { margin-top: 340px; padding: 30px; background-color: #DCDDDE; }
+	.section_caracteristicas { margin-top: 745px; }
+	.caracteristicas img { max-width: 30px; }
+
+	.bg_gris, .bg_verde { font-size: 1.15em; padding: 15px 0; }
+	.bg_verde h2{ font-size: 1.25em; }
+	.muebles_resistentes { background-position: 85%; }
+	.gracias_caracteristicas { margin-top: 30px; }
+	
+	#recaptcha, #rc-imageselect {
+		-webkit-transform: scale(0.72);
+		-moz-transform:    scale(0.72);
+		-ms-transform:     scale(0.72);
+		-o-transform:      scale(0.72);
+		transform:         scale(0.72);
+		-webkit-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-ms-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		transform-origin: 0 0;
+		position: relative;
+		left: 0%;
+	}
+}
+
+/* Dispositivos pequeños (teléfonos apaisados, 576px y más) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	header { padding: 15px; }
+	.header_datos, header .logo { text-align: center; }
+	.header_imagen { 
+		display: inline-block;
+		padding: 15px; 
+		height: 450px;
+		background-position: 50%;
+	}
+	h1 { font-size: 1.5em!important; }
+	.header_imagen h2 { font-size: 1.2em; }
+
+	.formulario { margin-top: 320px; padding: 30px; background-color: #DCDDDE; }
+	.section_caracteristicas { margin-top: 675px; }
+	.caracteristicas img { max-width: 30px; }
+	.muebles_resistentes { background-position: 85%; }
+	.gracias_caracteristicas { margin-top: 0; }
+	
+}
+
+/* Dispositivos medianos (tabletas, 768px y más) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	header { padding: 15px; }
+	.header_imagen { 
+		display: inline-block;
+		padding: 15px; 
+		height: 450px;
+		background-position: 50%;
+	}
+	h1 { font-size: 1.5em!important; }
+	.header_imagen h2 { font-size: 1.275em; }
+
+	.formulario { margin-top: 320px; padding: 30px; background-color: #DCDDDE; }
+	.section_caracteristicas { margin-top: 650px; }
+	.caracteristicas img { max-width: 30px; }
+
+	.muebles_resistentes { background-position: 85%; }
+
+	.gracias_caracteristicas { margin-top: 0; }
+
+
+	#recaptcha, #rc-imageselect {
+		-webkit-transform: scale(0.88);
+		-moz-transform:    scale(0.88);
+		-ms-transform:     scale(0.88);
+		-o-transform:      scale(0.88);
+		transform:         scale(0.88);
+
+		-webkit-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-ms-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		transform-origin: 0 0;
+	}
+	
+}
+
+/* Dispositivos grandes (escritorios, 992px y más) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 { font-size: 2.5em!important; }
+	.caracteristicas img { max-width: 35px; }
+}
+
+/* Dispositivos extragrandes (escritorios grandes, 1200px y más) */
+@media (min-width: 1200px) { 
+}

@@ -1,0 +1,121 @@
+/* POP UP */
+#pop-up {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  filter: alpha(opacity=80);
+	opacity: 0.8;
+  display: none;
+  z-index: 99;
+}
+
+#popup-box h2 { color: black; font-size: 3rem; }
+#popup-box .overlay { 
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%; 
+  height: 70%; 
+  background-color: #00000080; 
+  z-index: -1;
+}
+
+#popup-box {
+	background-image: url('../images/popup/fondo.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+  position: fixed;
+  z-index: 999;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 600px;
+  height: 400px;
+  max-height: 400px;
+  padding: 0 30px;
+  border: 5px solid #FFFFFF;
+  display: none;
+}
+
+#popup-box { display: flex; justify-content: center; padding-top: 30px; }
+
+.content-pop .redes { display: flex; justify-content: center; align-items: center; margin-bottom: 15px; }
+.content-pop .redes img { margin: 0 15px; }
+
+.content-pop .anuncio { font-size: 20px; color: white; font-weight: 400; margin-top: 5px; }
+.content-pop .pedido { font-size: 18px; color: white; font-weight: 400; }
+.content-pop .mensaje { font-size: 18px; color: white; font-weight: 700; }
+.content-pop .mensaje span { color: black; }
+
+#popup-close {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  cursor: pointer;
+  width: 40px;
+  z-index: 9999;
+}
+
+#popup-box h1 {
+    margin: 0;
+}
+
+#popup-box form {
+    margin-bottom: 0px;
+}
+
+#popup-box input {
+    padding: 10px;
+    border: 1px solid #333;
+    width: 40%;
+}
+
+#popup-box button {
+    padding: 10px;
+    border: 1px solid #333;
+}
+/* POP UP end */
+/* MEDIA QUERIES */
+
+/* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
+@media (max-width: 575.98px) {
+	/* POP UP */
+		#popup-box {
+		background-size: 100% 100%;
+	  max-width: 90%;
+	  width: 90%;
+	  /*padding: 55px 40px 30px 30px;*/
+		}
+		#popup-box img { max-width: 80%; }
+		.content-pop .anuncio { font-size: 16px; }
+    .content-pop .pedido { font-size: 16px; }
+    .content-pop .mensaje { font-size: 16px; }
+	/* POP UP end */
+
+}
+
+/* Dispositivos pequeños (teléfonos apaisados, 576px y más) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* POP UP */
+		#popup-box {
+		background-size: 100% 100%;
+	  max-width: 90%;
+	  width: 90%;
+	}
+	/* POP UP end */
+}
+
+/* Dispositivos medianos (tabletas, 768px y más) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Dispositivos grandes (escritorios, 992px y más) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}

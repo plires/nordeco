@@ -1,0 +1,16 @@
+<?php 
+
+	////////////////////////////
+	///Valores de API Perfit
+	////////////////////////////
+	define('PERFIT_APY_KEY', 'depisos-XRcFbJrhXXeJwbNtN6ok9B0HW4lEHs43');
+	define('PERFIT_LIST', 1);
+	define('PERFIT_ACCOUNT', 'Nordeco');
+
+	//////////////////////////////////////////////////////////////////////
+	///Copias de los mensajes
+	//////////////////////////////////////////////////////////////////////
+	define('EMAIL_BCC', 'martin@superfil.com.ar');
+	define('RECIPIENT', 'info@nordeco.com.ar');
+
+?>

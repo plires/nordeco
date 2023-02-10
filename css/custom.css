@@ -1,0 +1,173 @@
+@import url('pop-up.css');
+
+.centrar_imagen{margin:auto!important;}
+.margin-bottom-10{margin-bottom:10px!important;}
+.margin-bottom-30{margin-bottom:30px!important;}
+.margin-top-10{margin-top:10px!important;}
+.margin-top-30{margin-top:30px!important;}
+.tipo_17{font-size:17px;}
+.bold{font-weight:bold;}
+.dark-translucent-bg:after, .dark-translucent-bg{background-color:rgba(0, 0, 0, 0.1)!important;}
+.menu{display:none;}
+.verde-bg{background-color:#5BC0A4;border-top:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3;}
+.gris-bg{background-color:#ececec;border-top:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3;}
+.texto_blanco, .texto_blanco h2{color:#ffffff!important;}
+.texto_verde{color:#5BC0A4!important;}
+.sombras_baner_home{text-shadow:2px 1px 2px #000000;}
+
+/* Whatsap */
+.main-navigation.with-dropdown-buttons .navbar-default .navbar-collapse { padding: 0; }
+.whatsapp { float: right; height: 79px; display: flex; justify-content: center; align-items: center; }
+.whatsapp p { margin: 0; margin-left: 5px; font-family:'Raleway', sans-serif; font-size: 12px; line-height: 1.3; }
+
+@media (max-width: 767px) {
+	nav { padding: 0 10px!important; }
+}
+/* Whatsap end */
+
+/*fuentes*/
+.font_18{font-size: 18px;}
+.tipo_17{font-size:17px;}
+.tipo_1_2em{font-size:1.2em;}
+.tipo_1_5em{font-size:1.5em;}
+.tipo_2em{font-size:2em;}
+.tipo_2_5em{font-size:2.5em;}
+.tipo_3em{font-size:3em;}
+
+/*margenes*/
+.margin_top_60{margin-top: 60px;}
+.margin_top_30{margin-top: 30px;}
+.margin_bottom_30{margin-bottom: 30px;}
+
+/* Revestimiento */
+	.revestimientos { margin-bottom: 60px; }
+	.revestimientos .header .col-sm-12 { position: relative; }
+	.revestimientos .header .col-sm-12 .contenido_header { 
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background-color: rgb(0,0,0,0.2);
+		
+	}
+	.revestimientos .header .col-sm-12 .contenido_header h1,
+	.revestimientos .header .col-sm-12 .contenido_header p { color: white; text-shadow: 2px 1px 2px #000000; } 
+	.revestimientos .separator { background: white; } 
+	.revestimientos .header .col-sm-12 .contenido_header h1 { font-size: 4.5rem; font-weight: 700; } 
+	.revestimientos .header .col-sm-12 .contenido_header p { font-family: 'Roboto', sans-serif; font-size: 2.4rem; } 
+
+	.revestimientos .verde-bg { margin-top: -2px; margin-bottom: 60px; }
+	.revestimientos .verde-bg p { margin: 0; font-size: 2rem; }
+	
+	.revestimientos .wall_panel,
+	.revestimientos .siding { margin-bottom: 60px; }
+	.revestimientos .wall_panel h2,
+	.revestimientos .siding h2 { font-size: 3rem; font-weight: 700; }
+	.revestimientos .wall_panel p,
+	.revestimientos .siding p { font-size: 2rem; }
+	.revestimientos .wall_panel p:last-child,
+	.revestimientos .siding p:last-child { margin-bottom: 30px; }
+
+	.revestimientos .card h3 { font-size: 2rem; font-weight: 700; }
+	.revestimientos .card h3 span { font-size: 1.5rem; }
+	.revestimientos .card p { font-size: 1.25rem; margin-bottom: 30px; }
+
+	.revestimientos .caracteristicas { margin-bottom: 60px; }
+	.revestimientos .caracteristicas .descripcion img { margin: auto; }
+	.revestimientos .caracteristicas .descripcion h4 { font-size: 1.75rem; font-weight: 700; }
+/* Revestimiento */
+
+/* Pisos */
+.atributos { margin: 0; }
+.listado { margin-bottom: 30px; }
+.listado h3,
+.listado h4 { color: #333333!important; font-weight: 700; }
+.listado h3 { margin-top: 10px; font-size: 20px; }
+.listado h4 { font-size: 17px; text-transform: uppercase; }
+/* Pisos */
+
+/* Decks Individuales */
+.deck_individual h2 { margin-top: 0; }
+/* Decks Individuales end */
+
+/*laminas*/
+.tilde{float: left; margin: 8px 15px 0px 0px}
+.parrafo_laminas{max-width: 80%; margin-bottom: 25px;}
+
+/*colores*/
+.color_negro{color:#000000!important;}
+.color_blanco{color:#ffffff!important;}
+
+/*Botones*/
+.btn_blanco{color:#ffffff!important; border: solid 1px #ffffff;}
+.btn-verde{color:#ffffff;background-color:#5bb195; border-radius: 5px; border: solid 1px #fff;}
+
+/*libre footer*/
+.libre{display: inline-block; margin: 15px; font-size: 0.75em; color:#ffffff!important; float: right;}
+
+/*backgrounds*/
+.fondo_verde {background-color: #5BC0A4;}
+.fondo_oscuro {background-color: #333333;}
+
+.text_center{text-align: center;}
+.ul_none{list-style: none;}
+
+.newsletter_footer{width: 100%; border-radius: 5px; height: 30px;}
+.newsletter_input{padding: 5px; border-radius: 5px; margin-top: 10px; background-color: #333333; border: solid #444444 1px;}
+
+@media (max-width:1200px){
+
+	/* Revestimiento */
+	.revestimientos .header .col-sm-12 .contenido_header div { max-width: 700px; }
+	.revestimientos .header .col-sm-12 .contenido_header div h1 { font-size: 3.25rem; } 
+	.revestimientos .header .col-sm-12 .contenido_header div p { font-size: 1.75rem; } 
+
+	.revestimientos .verde-bg p { font-size: 1.75rem; }
+
+	.revestimientos .wall_panel p,
+	.revestimientos .siding p { font-size: 1.75rem; }
+	/* Revestimiento end */
+}
+
+@media (max-width:990px){
+
+	.tilde{float: none; margin: auto; margin-bottom: 15px;}
+	.parrafo_laminas{max-width: 100%; display: inline-block; text-align: center;}
+	.centrar_small{text-align: center!important;}
+}
+
+@media (max-width:700px){
+	/* Revestimiento */
+	.revestimientos .header .col-sm-12 .contenido_header div h1 { font-size: 3rem; } 
+	.revestimientos .header .col-sm-12 .contenido_header div .separator,
+	.revestimientos .header .col-sm-12 .contenido_header div p { display: none; } 
+
+	.revestimientos .verde-bg h2 { font-size: 2.5rem; }
+	.revestimientos .verde-bg p { font-size: 1.5rem; }
+
+	.revestimientos .wall_panel p,
+	.revestimientos .siding p { font-size: 1.5rem; }
+	/* Revestimiento end */
+}
+
+@media (max-width:480px)
+	{
+		/* Revestimiento */
+		.revestimientos .header .col-sm-12 .contenido_header div h1 { font-size: 2rem; } 
+
+		.revestimientos .verde-bg h2 { font-size: 2rem; }
+		
+		.revestimientos .wall_panel h2,
+		.revestimientos .siding h2 { font-size: 2.5rem; }
+
+		.revestimientos .caracteristicas .descripcion h4 { font-size: 1.5rem; }
+		/* Revestimiento end */
+
+		.menu{display:inline-block;margin:15px 10px 0px 0px;text-align:right!important;float:right;}
+		h3.margin-top--10{font-size: 20px;}
+}
