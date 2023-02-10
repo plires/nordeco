@@ -256,17 +256,17 @@
     </section>
     <!-- Pisos Vinilicos end -->
 
-    <!-- Pisos Muebles de Exterior -->
+    <!-- Tetovinilico -->
     <section class="light-gray-bg pv-30 clearfix">
       <div class="container">
 
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <h2 class="text-center bold">MUEBLES DE EXTERIOR</h2>
+            <h2 class="text-center bold">TETO VINÍLICO ARGENTINA</h2>
             <div class="separator"></div>
             <p class="large text-center">
-              Fabricados en una aleación de aluminio especial, mediante un proceso de anodizado crea un material
-              que no se daña y es inoxidable. Su acabado es suave y uniforme.
+              Un nuevo concepto en revestimientos para techos llegó a Argentina se trata de TETO Vinílico, un
+              revestimiento de calidad PREMIUM con materiales reciclados y un acabado sorprendente.
             </p>
           </div>
         </div>
@@ -276,17 +276,16 @@
           <div class="col-sm-12 isotope-item app-development">
             <div class="image-box shadow bordered text-center mb-20">
               <div class="overlay-container">
-                <img src="images/home/muebles-aluminio-cta.jpg" alt="muebles de aluminio">
+                <img src="images/home/tetovinilico-argentina.jpg" alt="muebles de aluminio">
                 <div class="overlay-top">
                   <div class="text">
-                    <h3><a href="muebles.php">MUEBLES DE EXTERIOR</a></h3>
-                    <p class="small">EN ALUMINIO ANODIZADO</p>
+                    <h3><a href="cielorrasos-premium-tetovinilico-argentina.php">TETO VINÍLICO ARGENTINA</a></h3>
                   </div>
                 </div>
                 <div class="overlay-bottom">
                   <div class="links">
-                    <a href="muebles.php" class="btn btn-bordo btn-animated btn-sm">VER MAS<i
-                        class="pl-10 fa fa-arrow-right"></i></a>
+                    <a href="cielorrasos-premium-tetovinilico-argentina.php"
+                      class="btn btn-bordo btn-animated btn-sm">VER MAS<i class="pl-10 fa fa-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -297,7 +296,7 @@
 
       </div>
     </section>
-    <!-- Pisos Muebles de Exterior end -->
+    <!-- Tetovinilico end -->
 
     <!-- Revestimientos Libre de Mantenimiento -->
     <section class="pv-30 clearfix">
@@ -383,6 +382,49 @@
         </div>
     </section>
     <!-- Laminas de Piedra end -->
+
+    <!-- Pisos Muebles de Exterior -->
+    <section class="light-gray-bg pv-30 clearfix">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h2 class="text-center bold">MUEBLES DE EXTERIOR</h2>
+            <div class="separator"></div>
+            <p class="large text-center">
+              Fabricados en una aleación de aluminio especial, mediante un proceso de anodizado crea un material
+              que no se daña y es inoxidable. Su acabado es suave y uniforme.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-12 isotope-item app-development">
+            <div class="image-box shadow bordered text-center mb-20">
+              <div class="overlay-container">
+                <img src="images/home/muebles-aluminio-cta.jpg" alt="muebles de aluminio">
+                <div class="overlay-top">
+                  <div class="text">
+                    <h3><a href="muebles.php">MUEBLES DE EXTERIOR</a></h3>
+                    <p class="small">EN ALUMINIO ANODIZADO</p>
+                  </div>
+                </div>
+                <div class="overlay-bottom">
+                  <div class="links">
+                    <a href="muebles.php" class="btn btn-bordo btn-animated btn-sm">VER MAS<i
+                        class="pl-10 fa fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Pisos Muebles de Exterior end -->
 
     <!-- Seccion Galeria de Fotos -->
     <?php include_once('includes/baner-depisos.inc'); ?>
