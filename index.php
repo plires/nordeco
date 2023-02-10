@@ -286,13 +286,13 @@
 									<img src="images/home/revestimientos-cta.jpg" alt="revestimientos libre de mantenimiento">
 									<div class="overlay-top">
 										<div class="text">
-											<h3><a href="revestimientos-libre-mantenimiento.php">REVESTIMIENTOS LIBRES DE MANTENIMIENTO</a></h3>
+											<h3><a href="revestimientos-wall-panel.php">REVESTIMIENTOS LIBRES DE MANTENIMIENTO</a></h3>
 											<p class="small">WALL PANEL / SIDING</p>
 										</div>
 									</div>
 									<div class="overlay-bottom">
 										<div class="links">
-											<a href="revestimientos-libre-mantenimiento.php" class="btn btn-bordo btn-animated btn-sm">VER MAS<i class="pl-10 fa fa-arrow-right"></i></a>
+											<a href="revestimientos-wall-panel.php" class="btn btn-bordo btn-animated btn-sm">VER MAS<i class="pl-10 fa fa-arrow-right"></i></a>
 										</div>
 									</div>
 								</div>

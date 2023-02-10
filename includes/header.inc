@@ -206,20 +206,42 @@
                         </li>
 
                         <li
+                          class="dropdown <?php if ($product == 'revestimientos') echo ' active'; ?>"
+                        >
+                          <a
+                            class="dropdown-toggle"
+                            data-toggle="dropdown"
+                            href="#"
+                            >REVESTIMIENTOS</a
+                          >
+                          <ul class="dropdown-menu">
+                            <li
+                              class="<?php if ($current == 'wall_panel') echo ' active'; ?>"
+                            >
+                              <a href="revestimientos-wall-panel.php"
+                                >Wall Panel</a
+                              >
+                            </li>
+                            <li
+                              class="<?php if ($current == 'siding') echo ' active'; ?>"
+                            >
+                              <a href="revestimientos-siding.php">Siding</a>
+                            </li>
+                            <li
+                              class="<?php if ($current == 'perfiles') echo ' active'; ?>"
+                            >
+                              <a href="revestimientos-perfiles.php"
+                                >Perfiles WPC</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li
                           class="<?php if ($current == 'zocalos') echo ' active'; ?>"
                         >
                           <a href="zocalos.php" class="dropdown-toggle"
                             >ZÓCALOS</a
-                          >
-                        </li>
-
-                        <li
-                          class="<?php if ($current == 'revestimientos') echo ' active'; ?>"
-                        >
-                          <a
-                            href="revestimientos-libre-mantenimiento.php"
-                            class="dropdown-toggle"
-                            >REVESTIMIENTOS PARA PARED</a
                           >
                         </li>
 

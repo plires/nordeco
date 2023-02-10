@@ -40,8 +40,12 @@
 .margin_bottom_30{margin-bottom: 30px;}
 
 /* Revestimiento */
+	.revestimientos .header { position: relative; }
+	.revestimientos .card img { margin: auto; }
+	.perfiles .medidas_disponibles { margin-bottom: 0!important; }
+
 	.revestimientos { margin-bottom: 60px; }
-	.revestimientos .header .col-sm-12 { position: relative; }
+	.revestimientos .header .col-sm-12 { position: relative; padding-left: 0; padding-right: 0; }
 	.revestimientos .header .col-sm-12 .contenido_header { 
 		position: absolute;
 		top: 0;
@@ -108,7 +112,7 @@
 .btn-verde{color:#ffffff;background-color:#5bb195; border-radius: 5px; border: solid 1px #fff;}
 
 /*libre footer*/
-.libre{display: inline-block; margin: 15px; font-size: 0.75em; color:#ffffff!important; float: right;}
+.libre{ margin: 15px; font-size: 0.75em; color:#ffffff!important; float: right;}
 
 /*backgrounds*/
 .fondo_verde {background-color: #5BC0A4;}
@@ -168,6 +172,6 @@
 		.revestimientos .caracteristicas .descripcion h4 { font-size: 1.5rem; }
 		/* Revestimiento end */
 
-		.menu{display:inline-block;margin:15px 10px 0px 0px;text-align:right!important;float:right;}
-		h3.margin-top--10{font-size: 20px;}
+		.menu{ margin:15px 10px 0px 0px;text-align:right!important;float:right; }
+		h3.margin-top--10{font-size: 20px;} 
 }
