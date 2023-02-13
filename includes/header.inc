@@ -58,8 +58,7 @@
                     type="button"
                     class="navbar-toggle"
                     data-toggle="collapse"
-                    data-target="#navbar-collapse-1"
-                  >
+                    data-target="#navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -79,8 +78,7 @@
                       >
                       <ul class="dropdown-menu">
                         <li
-                          class="dropdown <?php if ($product == 'deck') echo ' active'; ?>"
-                        >
+                          class="dropdown <?php if ($product == 'deck') echo ' active'; ?>">
                           <a
                             class="dropdown-toggle"
                             data-toggle="dropdown"
@@ -89,36 +87,31 @@
                           >
                           <ul class="dropdown-menu">
                             <li
-                              class="<?php if ($current == 'contour') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'contour') echo ' active'; ?>">
                               <a href="deck-ecologico-contour.php"
                                 >Línea Trex Contour</a
                               >
                             </li>
                             <li
-                              class="<?php if ($current == 'trascend') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'trascend') echo ' active'; ?>">
                               <a href="deck-ecologico-trascend.php"
                                 >Línea Trex Trascend</a
                               >
                             </li>
                             <li
-                              class="<?php if ($current == 'enhance') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'enhance') echo ' active'; ?>">
                               <a href="deck-ecologico-trex-enhance.php"
                                 >Línea Trex Enhance</a
                               >
                             </li>
                             <li
-                              class="<?php if ($current == 'coextruded') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'coextruded') echo ' active'; ?>">
                               <a href="deck-ecologico-co-extruded.php"
                                 >Línea Co-Extruded</a
                               >
                             </li>
                             <li
-                              class="<?php if ($current == 'select') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'select') echo ' active'; ?>">
                               <a href="deck-ecologico-select.php"
                                 >Línea Select</a
                               >
@@ -127,8 +120,7 @@
                         </li>
 
                         <li
-                          class="dropdown <?php if ($product == 'pisos') echo ' active'; ?>"
-                        >
+                          class="dropdown <?php if ($product == 'pisos') echo ' active'; ?>">
                           <a
                             class="dropdown-toggle"
                             data-toggle="dropdown"
@@ -137,8 +129,7 @@
                           >
                           <ul class="dropdown-menu">
                             <li
-                              class="dropdown <?php if ($currentCat == 'pisos-pegar') echo ' active'; ?>"
-                            >
+                              class="dropdown <?php if ($currentCat == 'pisos-pegar') echo ' active'; ?>">
                               <a
                                 class="dropdown-toggle"
                                 data-toggle="dropdown"
@@ -147,16 +138,14 @@
                               >
                               <ul class="dropdown-menu">
                                 <li
-                                  class="<?php if ($currentSub == 'pegar-baldosa') echo ' active'; ?>"
-                                >
+                                  class="<?php if ($currentSub == 'pegar-baldosa') echo ' active'; ?>">
                                   <a
                                     href="pisos-vinilicos-para-pegar-baldosas.php"
                                     >Baldosas</a
                                   >
                                 </li>
                                 <li
-                                  class="<?php if ($currentSub == 'pegar-liston') echo ' active'; ?>"
-                                >
+                                  class="<?php if ($currentSub == 'pegar-liston') echo ' active'; ?>">
                                   <a
                                     href="pisos-vinilicos-para-pegar-listones.php"
                                     >Listones</a
@@ -166,8 +155,7 @@
                             </li>
 
                             <li
-                              class="dropdown <?php if ($currentCat == 'pisos-spc') echo ' active'; ?>"
-                            >
+                              class="dropdown <?php if ($currentCat == 'pisos-spc') echo ' active'; ?>">
                               <a
                                 class="dropdown-toggle"
                                 data-toggle="dropdown"
@@ -176,15 +164,13 @@
                               >
                               <ul class="dropdown-menu">
                                 <li
-                                  class="<?php if ($currentSub == 'spc-baldosa') echo ' active'; ?>"
-                                >
+                                  class="<?php if ($currentSub == 'spc-baldosa') echo ' active'; ?>">
                                   <a href="pisos-vinilicos-spc-baldosas.php"
                                     >Baldosas</a
                                   >
                                 </li>
                                 <li
-                                  class="<?php if ($currentSub == 'spc-liston') echo ' active'; ?>"
-                                >
+                                  class="<?php if ($currentSub == 'spc-liston') echo ' active'; ?>">
                                   <a href="pisos-vinilicos-spc-listones.php"
                                     >Listones</a
                                   >
@@ -193,21 +179,18 @@
                             </li>
 
                             <li
-                              class="<?php if ($current == 'pisoplast') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'pisoplast') echo ' active'; ?>">
                               <a href="pisos.php">Pisos Vinilicos Click</a>
                             </li>
                             <li
-                              class="<?php if ($current == 'zocalos') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'zocalos') echo ' active'; ?>">
                               <a href="zocalos.php">Zócalos Pisoplast</a>
                             </li>
                           </ul>
                         </li>
 
                         <li
-                          class="dropdown <?php if ($product == 'revestimientos') echo ' active'; ?>"
-                        >
+                          class="dropdown <?php if ($product == 'revestimientos') echo ' active'; ?>">
                           <a
                             class="dropdown-toggle"
                             data-toggle="dropdown"
@@ -216,20 +199,17 @@
                           >
                           <ul class="dropdown-menu">
                             <li
-                              class="<?php if ($current == 'wall_panel') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'wall_panel') echo ' active'; ?>">
                               <a href="revestimientos-wall-panel.php"
                                 >Wall Panel</a
                               >
                             </li>
                             <li
-                              class="<?php if ($current == 'siding') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'siding') echo ' active'; ?>">
                               <a href="revestimientos-siding.php">Siding</a>
                             </li>
                             <li
-                              class="<?php if ($current == 'perfiles') echo ' active'; ?>"
-                            >
+                              class="<?php if ($current == 'perfiles') echo ' active'; ?>">
                               <a href="revestimientos-perfiles.php"
                                 >Perfiles WPC</a
                               >
@@ -238,24 +218,40 @@
                         </li>
 
                         <li
-                          class="<?php if ($current == 'zocalos') echo ' active'; ?>"
-                        >
+                          class="dropdown <?php if ($product == 'cielorrasos') echo ' active'; ?>">
+                          <a
+                            class="dropdown-toggle"
+                            data-toggle="dropdown"
+                            href="#"
+                            >CIELORRASOS PREMIUM</a
+                          >
+                          <ul class="dropdown-menu">
+                            <li
+                              class="<?php if ($current == 'teto') echo ' active'; ?>">
+                              <a
+                                href="cielorrasos-premium-tetovinilico-argentina.php"
+                                >Teto Vinílico Argentina</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li
+                          class="<?php if ($current == 'zocalos') echo ' active'; ?>">
                           <a href="zocalos.php" class="dropdown-toggle"
                             >ZÓCALOS</a
                           >
                         </li>
 
                         <li
-                          class="<?php if ($current == 'muebles') echo ' active'; ?>"
-                        >
+                          class="<?php if ($current == 'muebles') echo ' active'; ?>">
                           <a href="muebles.php" class="dropdown-toggle"
                             >MUEBLES DE EXTERIOR</a
                           >
                         </li>
 
                         <li
-                          class="<?php if ($current == 'laminas') echo ' active'; ?>"
-                        >
+                          class="<?php if ($current == 'laminas') echo ' active'; ?>">
                           <a href="laminas.php" class="dropdown-toggle"
                             >LÁMINAS DE PIEDRA</a
                           >
@@ -264,8 +260,7 @@
                     </li>
 
                     <li
-                      class="<?php if ($current == 'portfolio') echo ' active'; ?>"
-                    >
+                      class="<?php if ($current == 'portfolio') echo ' active'; ?>">
                       <a
                         href="deck-ecologico-color-roble.php"
                         class="dropdown-toggle"
@@ -274,8 +269,7 @@
                     </li>
 
                     <li
-                      class="<?php if ($current == 'contacto') echo ' active'; ?>"
-                    >
+                      class="<?php if ($current == 'contacto') echo ' active'; ?>">
                       <a href="contacto.php" class="dropdown-toggle"
                         >CONTACTO</a
                       >
@@ -287,13 +281,11 @@
                   <div class="whatsapp">
                     <a
                       href="https://api.whatsapp.com/send?phone=+5491153117118&text=Hola!%20Necesito%20hacer%20una%20consulta!"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <img
                         id="whatsapp"
                         src="images/header/whatsap.png"
-                        alt="whatsapp"
-                      />
+                        alt="whatsapp" />
                     </a>
                     <p>
                       <strong>WhatsApp</strong><br />

@@ -39,6 +39,19 @@
 .margin_top_30{margin-top: 30px;}
 .margin_bottom_30{margin-bottom: 30px;}
 
+/* Tetovinilico */
+.tetovinilico .cielorrasos .tablas {
+	margin: auto;
+}
+.tetovinilico .cielorrasos {
+	margin-bottom: 10px !important;
+}
+
+.tetovinilico .medidas .detalle {
+	margin-bottom: 30px;
+}
+/* Tetovinilico end */
+
 /* Revestimiento */
 	.revestimientos .header { position: relative; }
 	.revestimientos .card img { margin: auto; }
@@ -123,6 +136,18 @@
 
 .newsletter_footer{width: 100%; border-radius: 5px; height: 30px;}
 .newsletter_input{padding: 5px; border-radius: 5px; margin-top: 10px; background-color: #333333; border: solid #444444 1px;}
+
+@media (min-width: 1200px) {
+	/* Tetovinilico */
+	.tetovinilico .medidas {
+		margin-bottom: 60px;
+	}
+
+	.tetovinilico .medidas .detalle {
+		margin-bottom: 0!important;
+	}
+	/* Tetovinilico end */
+}
 
 @media (max-width:1200px){
 
