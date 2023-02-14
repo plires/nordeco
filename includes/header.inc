@@ -218,22 +218,12 @@
                         </li>
 
                         <li
-                          class="dropdown <?php if ($product == 'cielorrasos') echo ' active'; ?>">
+                          class="<?php if ($current == 'teto') echo ' active'; ?>">
                           <a
+                            href="cielorrasos-premium-tetovinilico-argentina.php"
                             class="dropdown-toggle"
-                            data-toggle="dropdown"
-                            href="#"
-                            >CIELORRASOS PREMIUM</a
+                            >CIELORRASOS PREMIUM<br />TETO VINÍLICO ARGENTINA</a
                           >
-                          <ul class="dropdown-menu">
-                            <li
-                              class="<?php if ($current == 'teto') echo ' active'; ?>">
-                              <a
-                                href="cielorrasos-premium-tetovinilico-argentina.php"
-                                >Teto Vinílico Argentina</a
-                              >
-                            </li>
-                          </ul>
                         </li>
 
                         <li
