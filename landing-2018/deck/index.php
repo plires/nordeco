@@ -21,7 +21,7 @@
 		include ('./../includes/funciones_validar.php');
 
 		//Comprobamos el reCaptcha
-		// include_once("./../includes/recaptcha.php");
+		include_once("./../includes/recaptcha.php");
 
 		if(campoVacio($_POST['name'])){
 			$errors['name']='Ingresa tu nombre';
