@@ -191,7 +191,7 @@ $content='
 
 mail('info@nordeco.com.ar', $subject, $content,"MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >");
 mail('martin@superfil.com.ar', $subject, $content,"MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >");
-// mail('pablo@librecomunicacion.net', $subject, $content,"MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >");
+mail('pablo@librecomunicacion.net', $subject, $content,"MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >");
 
 // Registro la consulta en la bdd
 include("conexion.php");
@@ -283,5 +283,5 @@ mail ("$name < $email >", "Su correo ha sido recibido - Pisos Vinilicos",$mensaj
 ?>
 
 <script type="text/javascript">
-    window.location= 'gracias.php';
+window.location = 'gracias.php';
 </script>

@@ -1,0 +1,14 @@
+{
+    "name": "admin/landing-2018",
+    "require": {
+        "perfitdev/sdkphp": "^1.0",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "Pablo Lires",
+            "email": "pablolires@gmail.com"
+        }
+    ]
+}

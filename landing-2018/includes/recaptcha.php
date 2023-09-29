@@ -1,5 +1,10 @@
 <?php
-  
+
+  require_once( __DIR__ . '/../vendor/autoload.php' );
+
+  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+  $dotenv->safeLoad();
+
   //capturamos el POST del reCAPTCHA
   $response_recaptcha = $_POST['g-recaptcha-response'];
 
@@ -12,7 +17,7 @@
   if (isset($response_recaptcha)) {
     
     // Cargamos los datos que nos da la API de Google.
-    $secret = "6LfNPGAUAAAAAGjRdoipaM8E6DCq79rSgtAM7O0q";
+    $secret = $_ENV['RECAPTCHA_SECRET_KEY'];
 
     // Cargamos la IP del usuario
     $ip = $_SERVER["REMOTE_ADDR"];

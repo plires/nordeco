@@ -41,48 +41,4 @@ function campoVacio($dato){
 	}
 }
 
-/*
-function validoClave($pass1, $pass2){
-	if($pass1 == $pass2){
-		$cc= strlen($pass1);
-		if($cc >= 5 && $cc <= 10){
-			return true;
-		}else{
-			return false;
-		}
-	}else{
-		return false;
-	}
-}
-*/
-/*
-function validar_mail ($mail){
-	if (count (explode('@', $mail)) !=2){
-		return true;
-	}else{
-		return false;
-	}
-}
-*/
-
-/*function validar_mail ($mail){
-	if (strlen($mail)==0){
-		return false;
-	}
-	$dom= strstr($mail, '@');
-		if (!$dom){
-			return false;
-		}
-	if (strpos($dom, '@', 1)){
-		return false;
-	}else{
-		return true;	
-	}
-	
-}
-*/
-
-// return is_int($edad);
-
-
 ?>
