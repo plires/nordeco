@@ -8,7 +8,13 @@
 /images
 /dist
 /dist/
+/landing-2018/deck/img/
+/landing-2018/pisos-vinilicos/img/
+/landing-2018/pisos-vinilicos-ofertas/img/
+/landing-2018/muebles/img/
 /landing-2018/vendor/
+/landing-2018/img/
+/landing-2018/.env
 /test.html
 **/.DS_Store into
 

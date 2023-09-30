@@ -1,29 +1,64 @@
 <?php
-session_cache_limiter('nocache');
-header('Expires: ' . gmdate('r', 0));
-header('Content-type: application/json');
+	session_cache_limiter('nocache');
+	header('Expires: ' . gmdate('r', 0));
+	header('Content-type: application/json');
 
-$Recipient = 'info@nordeco.com.ar'; // <-- Set your email here
+	use PHPMailer\PHPMailer\PHPMailer;
+	use PHPMailer\PHPMailer\SMTP;
+	use PHPMailer\PHPMailer\Exception;
 
-$subject = 'Suscripcion al newsletter';
+	//Comprobamos el reCaptcha
+	// include_once("./recaptcha.php");
 
-if($Recipient) {
+	//Load Composer's autoloader
+	require_once( __DIR__ . '/../vendor/autoload.php' );
 
-	$Email = $_POST['newsletter'];
-	$Newsletter = $_POST['newsletter'];
-	$Url = $_POST['url-newsletter'];
-	$Subject = $subject;
+	$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ .'/../landing-2018/');
+	$dotenv->safeLoad();
 
-	$Email_body = "";
-	$Email_body .= "Seccion de origen: Contacto-Newsletter" ."\n" .
-				   "Pagina donde se origino la consulta: " . $Url . "\n" .
-					"Email del solicitante: " . $Email . "\n" .
+	//Create an instance; passing `true` enables exceptions
+	$mail = new PHPMailer(true);
 
-	$Email_headers = "";
-	$Email_headers .= 'From: ' . $Name . ' <' . $Email . '>' . "\r\n".
-					  "Reply-To: " .  $Email . "\r\n";
+	$email = $_POST['email'];
+	$subject = 'Suscripcion al newsletter';
 
-	$sent = mail($Recipient, $Subject, $Email_body, $Email_headers);
+	$email_body = "";
+	$email_body .= "Seccion de origen: Contacto-Newsletter" ."<br />" .
+					"Email del solicitante: " . $email . "<br />";
+
+	try {
+		
+		//Server settings
+		// $mail->SMTPDebug = SMTP::DEBUG_SERVER;               
+		
+		if ($_ENV['ENVIRONMENT'] === 'local') {
+			$mail->isSendmail();
+		} else {
+			$mail->isSMTP();
+		}
+
+		$mail->Host       = $_ENV['SMTP'];
+		$mail->SMTPAuth   = true;              
+		$mail->Username   = $_ENV['USERNAME'];
+		$mail->Password   = $_ENV['PASSWORD'];          
+		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+		$mail->Port       = $_ENV['EMAIL_PORT'];
+
+		//Recipients
+		$mail->setFrom($email);
+		$mail->addAddress($_ENV['EMAIL_CLIENT'], $_ENV['NAME_CLIENT']);
+		$mail->addReplyTo($email);
+
+		//Content
+		$mail->isHTML(true);
+		$mail->Subject = $subject;
+		$mail->Body    = $email_body;
+		// $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+		$sent = $mail->send();
+	} catch (Exception $e) {
+		echo "message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+	}
 
 	if ($sent){
 		$emailResult = array ('sent'=>'yes');
@@ -34,11 +69,5 @@ if($Recipient) {
 	}
 
 	echo json_encode($emailResult);
-
-} else {
-
-	$emailResult = array ('sent'=>'no');
-	echo json_encode($emailResult);
-
-}
+	
 ?>
