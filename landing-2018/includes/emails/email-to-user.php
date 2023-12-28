@@ -380,6 +380,10 @@
             <strong>Email:</strong> {email_user}
           </p>
 
+          <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
+              <strong>Tel&eacute;fono:</strong> {phone_user}
+          </p>
+
           <p class="fallback-font"
             style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
             <strong>Comentarios:</strong> {comments_user}
